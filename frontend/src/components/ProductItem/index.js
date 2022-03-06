@@ -32,7 +32,7 @@ const ProductItem = ({product}) => {
 
         if(typeof cartProduct != 'undefined') { 
             if(cartProduct.stock > stock) {
-                alert("Can't add out of stock product to the cart.")
+                alert("Can't update this product, because it's out of stock.")
             } else {
                 // if we find the current product in the cart, then just increasing the quantity.
                 ifProductExitCart();
@@ -40,7 +40,7 @@ const ProductItem = ({product}) => {
         } else { 
             // if alraedy total 5 products have been added to the cart, we are not adding more product to the cart. blocking here.
             if(Object.keys(cartProducts).length >= 5) { 
-                alert("Already added total 5 unique products to the cart.");
+                alert("Can't add to the cart, because already have 5 unique products to the cart.");
                 return;
              }
 
