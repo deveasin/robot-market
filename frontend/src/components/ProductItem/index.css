@@ -1,0 +1,11 @@
+.product-image {
+    min-height: 165px;
+    text-align: center;
+}
+.product-item {
+    margin-bottom: 30px;
+}
+
+.product-item span {
+    display: block;
+}

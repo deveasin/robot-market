@@ -1,0 +1,9 @@
+.robot-header {
+    background: #fff;
+    box-shadow: 0 2px 8px #f0f1f2;
+    padding: 10px 0;
+}
+
+.robot-header h1 {
+    margin: 0;
+}

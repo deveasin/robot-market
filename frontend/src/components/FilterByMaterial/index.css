@@ -1,0 +1,12 @@
+.filter-by-material {
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.filter-by-material .ant-select {
+    text-align: left;
+}
+
+.filter-by-material-label {
+    margin-right: 10px;
+}

@@ -1,0 +1,20 @@
+.robot-minicart {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid #f0f0f0
+}
+
+.robot-minicart-item {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px;
+}
+
+.robot-minicart-item:last-child {
+    border-bottom: 0
+}
+
+.robot-minicart-total-price {
+    font-weight: bold;
+    font-size: 15px;
+}
