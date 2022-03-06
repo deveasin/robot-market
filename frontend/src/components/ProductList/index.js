@@ -8,7 +8,7 @@ import Spiner from "../Spiner";
 import './index.css';
 import ProductItem from "../ProductItem";
 
-const ProductList = ({gutter = 30, span = 8}) => {
+const ProductList = ({gutter = 20, span = 8}) => {
     const {storeProducts, products, materialType} =  GetStateValues();
     const [results, loading] = useApi(apiEndpoints.products);
 
@@ -36,7 +36,7 @@ const ProductList = ({gutter = 30, span = 8}) => {
     return (
         <Row gutter={gutter}>
             {FilteredProducts.map(product => (
-                <Col key={product.createdAt} className="gutter-row" span={span}>
+                <Col key={product.createdAt} className="gutter-row" span={span} xs={24} md={12} xl={span}>
                     <ProductItem product={product} />
                 </Col>
             ))}

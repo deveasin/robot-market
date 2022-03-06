@@ -1,9 +1,9 @@
 .product-image {
-    min-height: 165px;
+    min-height: 145px;
     text-align: center;
 }
 .product-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .product-item span {

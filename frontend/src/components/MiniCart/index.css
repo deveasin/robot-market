@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    border: 1px solid #f0f0f0
+    border: 1px solid #f0f0f0;
+}
+
+.robot-minicart-wrapper {
+    margin-bottom: 20px;
 }
 
 .robot-minicart-item {

@@ -39,7 +39,7 @@ const MiniCartItem = ({product}) => {
                 {name && <h4 className="product-title">{name}</h4>}
                 {price && <span className="product-price"><strong>Price:</strong> {formatPriceToBaht(quantity * price)}</span>}
                 <span className='robot-minicart-quantity-label'>Quantity:</span>
-                <InputNumber size="small" style={{width: '80px'}} min={0} value={quantity} onChange={handleQuantity} />
+                <InputNumber size="large" style={{width: '80px'}} min={0} value={quantity} onChange={handleQuantity} />
             </div>  
             <a href="#" onClick={(e) => {
                 e.preventDefault();

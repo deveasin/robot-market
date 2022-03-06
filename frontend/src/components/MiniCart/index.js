@@ -9,7 +9,12 @@ const MiniCart = () => {
     const { cartProducts } = GetStateValues();
 
     if(!Object.keys(cartProducts).length) {
-        return <NoResultFound message='No cart products are found.' />
+        return (
+        <>
+            <NoResultFound message='No cart products are found.' />
+            <br /> 
+        </>
+        )
     }
 
     const { formatPriceToBaht } = helperFunctions;
