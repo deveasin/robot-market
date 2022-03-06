@@ -8,7 +8,7 @@ where on the right side of the screen should display a cart that show a list of 
 ## Contact Details
 Please fill in your name and email
 - Name: Md. Easin
-- Email: deveasin@gmail.com
+- Email: deveasin@gmail.com | easin55474@gmail.com
 
 ## Features
 
